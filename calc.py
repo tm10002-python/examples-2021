@@ -1,7 +1,12 @@
 """ Basic calculation. """
 
 
-def subtract(left_hand, right_hand):
+def multiply(lh, rh):
+    """ Multiply function. """
+    return lh * rh
+
+
+def subtract(lh, rh):
     """ Subtract function. """
     return left_hand - right_hand
 
