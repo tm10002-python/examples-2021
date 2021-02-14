@@ -16,4 +16,3 @@ def test_add_wrong_type():
 def test_zero_division():
     with raises(ZeroDivisionError):
         divide(3/0)
-    
